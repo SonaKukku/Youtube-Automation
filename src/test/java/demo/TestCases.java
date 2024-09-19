@@ -106,6 +106,11 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 WebElement films= driver.findElement(By.xpath("//div[@id='sections']//descendant::ytd-guide-section-renderer[3]/div/ytd-guide-entry-renderer[4]"));
                 films.click();
 
+                String pageTitle = driver.getTitle();
+                if(pageTitle.contains("Films")){
+                    System.out.println("Films Tab Clicked");
+                }
+
                 Thread.sleep(3000);
 
                 WebElement topSelling = driver.findElement(By.xpath("//span[text()='Top selling']"));
@@ -113,15 +118,15 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
 
                 Thread.sleep(3000);
 
-                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            //     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-              //  boolean moreMovies=true;
-              WebElement arrowButtonSelector = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#right-arrow-button > ytd-button-renderer > yt-button-shape > button")));
+            //   //  boolean moreMovies=true;
+            //   WebElement arrowButtonSelector = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#right-arrow-button > ytd-button-renderer > yt-button-shape > button")));
 
-               while(arrowButtonSelector.isDisplayed()){
-                arrowButtonSelector.click();
-                Thread.sleep(2000);
-               }                                
+            //    while(arrowButtonSelector.isDisplayed()){
+            //     arrowButtonSelector.click();
+            //     Thread.sleep(2000);
+            //    }                                
                   
                }       
 

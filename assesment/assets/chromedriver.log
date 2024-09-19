@@ -1,7 +1,7 @@
-[1726759521.412][INFO]: Starting ChromeDriver 128.0.6613.137 (fe621c5aa2d6b987e964fb1b5066833da5fb613d-refs/branch-heads/6613@{#1711}) on port 20514
-[1726759521.412][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1726759521.418][INFO]: ChromeDriver was started successfully on port 20514
-[1726759522.049][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND InitSession {
+[1726760267.420][INFO]: Starting ChromeDriver 128.0.6613.137 (fe621c5aa2d6b987e964fb1b5066833da5fb613d-refs/branch-heads/6613@{#1711}) on port 37441
+[1726760267.420][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1726760267.427][INFO]: ChromeDriver was started successfully on port 37441
+[1726760268.074][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -17,7 +17,7 @@
       } ]
    }
 }
-[1726759522.050][INFO]: Populating Preferences file: {
+[1726760268.075][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -70,7 +70,7 @@
       "enabled": false
    }
 }
-[1726759522.051][INFO]: Populating Local State file: {
+[1726760268.075][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -80,22 +80,22 @@
       }
    }
 }
-[1726759522.052][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1726759522.052][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1726759522.053][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Lenovo\AppData\Local\Temp\scoped_dir12240_570787621" data:,
-[1726759522.721][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1726759522.732][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE InitSession {
+[1726760268.076][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1726760268.076][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1726760268.078][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Lenovo\AppData\Local\Temp\scoped_dir11848_1430188598" data:,
+[1726760268.807][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1726760268.822][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
       "browserVersion": "128.0.6613.138",
       "chrome": {
          "chromedriverVersion": "128.0.6613.137 (fe621c5aa2d6b987e964fb1b5066833da5fb613d-refs/branch-heads/6613@{#1711})",
-         "userDataDir": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\scoped_dir12240_570787621"
+         "userDataDir": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\scoped_dir11848_1430188598"
       },
       "fedcm:accounts": true,
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:49958"
+         "debuggerAddress": "localhost:50569"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -116,373 +116,210 @@
       "webauthn:extension:prf": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "fc1426bdff9f147bab46852bc4c1a3a3"
+   "sessionId": "32c9bb0b3f20584bb1fae5f514c2a37a"
 }
-[1726759522.882][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND MaximizeWindow {
+[1726760269.007][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND MaximizeWindow {
 }
-[1726759522.882][INFO]: Waiting for pending navigations...
-[1726759522.885][INFO]: Done waiting for pending navigations. Status: ok
-[1726759522.913][INFO]: Waiting for pending navigations...
-[1726759522.915][INFO]: Done waiting for pending navigations. Status: ok
-[1726759522.915][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE MaximizeWindow {
+[1726760269.007][INFO]: Waiting for pending navigations...
+[1726760269.010][INFO]: Done waiting for pending navigations. Status: ok
+[1726760269.049][INFO]: Waiting for pending navigations...
+[1726760269.050][INFO]: Done waiting for pending navigations. Status: ok
+[1726760269.050][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE MaximizeWindow {
    "height": 688,
    "width": 1296,
    "x": -8,
    "y": -8
 }
-[1726759522.935][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND Navigate {
+[1726760269.066][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND Navigate {
    "url": "https://www.youtube.com/"
 }
-[1726759522.935][INFO]: Waiting for pending navigations...
-[1726759522.936][INFO]: Done waiting for pending navigations. Status: ok
-[1726759523.352][INFO]: Waiting for pending navigations...
-[1726759527.866][INFO]: Done waiting for pending navigations. Status: ok
-[1726759527.866][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE Navigate
-[1726759527.871][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND GetUrl {
+[1726760269.066][INFO]: Waiting for pending navigations...
+[1726760269.067][INFO]: Done waiting for pending navigations. Status: ok
+[1726760269.567][INFO]: Waiting for pending navigations...
+[1726760274.284][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.284][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE Navigate
+[1726760274.287][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND GetUrl {
 }
-[1726759527.871][INFO]: Waiting for pending navigations...
-[1726759527.871][INFO]: Done waiting for pending navigations. Status: ok
-[1726759527.877][INFO]: Waiting for pending navigations...
-[1726759527.877][INFO]: Done waiting for pending navigations. Status: ok
-[1726759527.877][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE GetUrl "https://www.youtube.com/"
-[1726759527.883][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
+[1726760274.287][INFO]: Waiting for pending navigations...
+[1726760274.288][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.292][INFO]: Waiting for pending navigations...
+[1726760274.292][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.292][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE GetUrl "https://www.youtube.com/"
+[1726760274.301][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND FindElement {
    "using": "css selector",
    "value": "#guide-icon"
 }
-[1726759527.883][INFO]: Waiting for pending navigations...
-[1726759527.884][INFO]: Done waiting for pending navigations. Status: ok
-[1726759527.898][INFO]: Waiting for pending navigations...
-[1726759527.899][INFO]: Done waiting for pending navigations. Status: ok
-[1726759527.899][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.A543C1A9E0E21BEC2D58285DBB03F70F.e.25"
+[1726760274.301][INFO]: Waiting for pending navigations...
+[1726760274.302][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.314][INFO]: Waiting for pending navigations...
+[1726760274.315][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.315][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.675B3864153BFD67708E0CC7B0E19F68.e.22"
 }
-[1726759527.905][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND ClickElement {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.A543C1A9E0E21BEC2D58285DBB03F70F.e.25"
+[1726760274.322][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND ClickElement {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.675B3864153BFD67708E0CC7B0E19F68.e.22"
 }
-[1726759527.905][INFO]: Waiting for pending navigations...
-[1726759527.905][INFO]: Done waiting for pending navigations. Status: ok
-[1726759528.041][INFO]: Waiting for pending navigations...
-[1726759528.151][INFO]: Done waiting for pending navigations. Status: ok
-[1726759528.151][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE ClickElement
-[1726759531.164][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
+[1726760274.322][INFO]: Waiting for pending navigations...
+[1726760274.323][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.548][INFO]: Waiting for pending navigations...
+[1726760274.554][INFO]: Done waiting for pending navigations. Status: ok
+[1726760274.554][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE ClickElement
+[1726760277.573][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND FindElement {
    "using": "xpath",
    "value": "//a[text()='About']"
 }
-[1726759531.165][INFO]: Waiting for pending navigations...
-[1726759531.166][INFO]: Done waiting for pending navigations. Status: ok
-[1726759531.180][INFO]: Waiting for pending navigations...
-[1726759531.181][INFO]: Done waiting for pending navigations. Status: ok
-[1726759531.181][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.A543C1A9E0E21BEC2D58285DBB03F70F.e.28"
+[1726760277.573][INFO]: Waiting for pending navigations...
+[1726760277.575][INFO]: Done waiting for pending navigations. Status: ok
+[1726760277.599][INFO]: Waiting for pending navigations...
+[1726760277.600][INFO]: Done waiting for pending navigations. Status: ok
+[1726760277.600][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.675B3864153BFD67708E0CC7B0E19F68.e.25"
 }
-[1726759531.185][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND ClickElement {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.A543C1A9E0E21BEC2D58285DBB03F70F.e.28"
+[1726760277.606][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND ClickElement {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.675B3864153BFD67708E0CC7B0E19F68.e.25"
 }
-[1726759531.185][INFO]: Waiting for pending navigations...
-[1726759531.186][INFO]: Done waiting for pending navigations. Status: ok
-[1726759531.267][INFO]: Waiting for pending navigations...
-[1726759532.370][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.370][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE ClickElement
-[1726759532.378][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElements {
+[1726760277.606][INFO]: Waiting for pending navigations...
+[1726760277.608][INFO]: Done waiting for pending navigations. Status: ok
+[1726760277.709][INFO]: Waiting for pending navigations...
+[1726760280.285][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.285][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE ClickElement
+[1726760280.289][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND FindElements {
    "using": "xpath",
    "value": "(//section)[1]//child::*"
 }
-[1726759532.378][INFO]: Waiting for pending navigations...
-[1726759532.379][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.398][INFO]: Waiting for pending navigations...
-[1726759532.399][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.399][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElements [ {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.3"
+[1726760280.289][INFO]: Waiting for pending navigations...
+[1726760280.290][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.301][INFO]: Waiting for pending navigations...
+[1726760280.302][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.302][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.3"
 }, {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.4"
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.4"
 }, {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.5"
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.5"
 }, {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.6"
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.6"
 } ]
-[1726759532.405][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND GetElementText {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.3"
+[1726760280.306][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND GetElementText {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.3"
 }
-[1726759532.405][INFO]: Waiting for pending navigations...
-[1726759532.408][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.425][INFO]: Waiting for pending navigations...
-[1726759532.428][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.428][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE GetElementText "About YouTube"
-[1726759532.432][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND GetElementText {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.4"
+[1726760280.306][INFO]: Waiting for pending navigations...
+[1726760280.307][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.319][INFO]: Waiting for pending navigations...
+[1726760280.320][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.320][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE GetElementText "About YouTube"
+[1726760280.323][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND GetElementText {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.4"
 }
-[1726759532.432][INFO]: Waiting for pending navigations...
-[1726759532.434][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.445][INFO]: Waiting for pending navigations...
-[1726759532.446][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.446][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE GetElementText "Our mission is to give everyone a voice and show them the world."
-[1726759532.451][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND GetElementText {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.5"
+[1726760280.323][INFO]: Waiting for pending navigations...
+[1726760280.324][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.329][INFO]: Waiting for pending navigations...
+[1726760280.330][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.330][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE GetElementText "Our mission is to give everyone a voice and show them the world."
+[1726760280.334][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND GetElementText {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.5"
 }
-[1726759532.451][INFO]: Waiting for pending navigations...
-[1726759532.451][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.460][INFO]: Waiting for pending navigations...
-[1726759532.460][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.461][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE GetElementText "We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories."
-[1726759532.465][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND GetElementText {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.AA75AA7B6D6A40B15AFB6099096E3D16.e.6"
+[1726760280.334][INFO]: Waiting for pending navigations...
+[1726760280.335][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.341][INFO]: Waiting for pending navigations...
+[1726760280.342][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.342][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE GetElementText "We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories."
+[1726760280.345][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND GetElementText {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.A15963610EEA12F27D13FDDBEE037704.e.6"
 }
-[1726759532.465][INFO]: Waiting for pending navigations...
-[1726759532.466][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.472][INFO]: Waiting for pending navigations...
-[1726759532.473][INFO]: Done waiting for pending navigations. Status: ok
-[1726759532.474][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE GetElementText ""
-[1726759535.501][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND Navigate {
+[1726760280.345][INFO]: Waiting for pending navigations...
+[1726760280.346][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.352][INFO]: Waiting for pending navigations...
+[1726760280.352][INFO]: Done waiting for pending navigations. Status: ok
+[1726760280.352][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE GetElementText ""
+[1726760283.350][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND Navigate {
    "url": "https://www.youtube.com/"
 }
-[1726759535.501][INFO]: Waiting for pending navigations...
-[1726759535.502][INFO]: Done waiting for pending navigations. Status: ok
-[1726759535.866][INFO]: Waiting for pending navigations...
-[1726759537.694][INFO]: Done waiting for pending navigations. Status: ok
-[1726759537.694][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE Navigate
-[1726759537.704][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
+[1726760283.350][INFO]: Waiting for pending navigations...
+[1726760283.351][INFO]: Done waiting for pending navigations. Status: ok
+[1726760283.564][INFO]: Waiting for pending navigations...
+[1726760285.149][INFO]: Done waiting for pending navigations. Status: ok
+[1726760285.149][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE Navigate
+[1726760285.155][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND FindElement {
    "using": "css selector",
    "value": "#guide-icon"
 }
-[1726759537.704][INFO]: Waiting for pending navigations...
-[1726759537.718][INFO]: Done waiting for pending navigations. Status: ok
-[1726759537.744][INFO]: Waiting for pending navigations...
-[1726759537.750][INFO]: Done waiting for pending navigations. Status: ok
-[1726759537.750][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.03A4D6B77AD3119739B6DE3D16991B19.e.12"
+[1726760285.155][INFO]: Waiting for pending navigations...
+[1726760285.157][INFO]: Done waiting for pending navigations. Status: ok
+[1726760285.171][INFO]: Waiting for pending navigations...
+[1726760285.174][INFO]: Done waiting for pending navigations. Status: ok
+[1726760285.174][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.D9735F444D96F3F2401EBBECFEB76B99.e.14"
 }
-[1726759537.755][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND ClickElement {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.03A4D6B77AD3119739B6DE3D16991B19.e.12"
+[1726760285.181][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND ClickElement {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.D9735F444D96F3F2401EBBECFEB76B99.e.14"
 }
-[1726759537.755][INFO]: Waiting for pending navigations...
-[1726759537.758][INFO]: Done waiting for pending navigations. Status: ok
-[1726759537.878][INFO]: Waiting for pending navigations...
-[1726759537.882][INFO]: Done waiting for pending navigations. Status: ok
-[1726759537.882][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE ClickElement
-[1726759540.892][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
+[1726760285.181][INFO]: Waiting for pending navigations...
+[1726760285.183][INFO]: Done waiting for pending navigations. Status: ok
+[1726760285.292][INFO]: Waiting for pending navigations...
+[1726760285.300][INFO]: Done waiting for pending navigations. Status: ok
+[1726760285.300][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE ClickElement
+[1726760288.315][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND FindElement {
    "using": "xpath",
    "value": "//div[@id='sections']//descendant::ytd-guide-section-renderer[3]/div/ytd-guide-entry-renderer[4]"
 }
-[1726759540.892][INFO]: Waiting for pending navigations...
-[1726759540.893][INFO]: Done waiting for pending navigations. Status: ok
-[1726759540.904][INFO]: Waiting for pending navigations...
-[1726759540.905][INFO]: Done waiting for pending navigations. Status: ok
-[1726759540.905][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.03A4D6B77AD3119739B6DE3D16991B19.e.20"
+[1726760288.315][INFO]: Waiting for pending navigations...
+[1726760288.316][INFO]: Done waiting for pending navigations. Status: ok
+[1726760288.327][INFO]: Waiting for pending navigations...
+[1726760288.328][INFO]: Done waiting for pending navigations. Status: ok
+[1726760288.328][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.D9735F444D96F3F2401EBBECFEB76B99.e.21"
 }
-[1726759540.907][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND ClickElement {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.03A4D6B77AD3119739B6DE3D16991B19.e.20"
+[1726760288.331][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND ClickElement {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.D9735F444D96F3F2401EBBECFEB76B99.e.21"
 }
-[1726759540.907][INFO]: Waiting for pending navigations...
-[1726759540.908][INFO]: Done waiting for pending navigations. Status: ok
-[1726759540.967][INFO]: Waiting for pending navigations...
-[1726759540.983][INFO]: Done waiting for pending navigations. Status: ok
-[1726759540.983][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE ClickElement
-[1726759543.991][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
+[1726760288.331][INFO]: Waiting for pending navigations...
+[1726760288.332][INFO]: Done waiting for pending navigations. Status: ok
+[1726760288.391][INFO]: Waiting for pending navigations...
+[1726760288.405][INFO]: Done waiting for pending navigations. Status: ok
+[1726760288.405][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE ClickElement
+[1726760288.412][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND GetTitle {
+}
+[1726760288.412][INFO]: Waiting for pending navigations...
+[1726760288.416][INFO]: Done waiting for pending navigations. Status: ok
+[1726760288.420][INFO]: Waiting for pending navigations...
+[1726760288.421][INFO]: Done waiting for pending navigations. Status: ok
+[1726760288.421][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE GetTitle "YouTube"
+[1726760291.442][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND FindElement {
    "using": "xpath",
    "value": "//span[text()='Top selling']"
 }
-[1726759543.991][INFO]: Waiting for pending navigations...
-[1726759543.992][INFO]: Done waiting for pending navigations. Status: ok
-[1726759544.014][INFO]: Waiting for pending navigations...
-[1726759544.016][INFO]: Done waiting for pending navigations. Status: ok
-[1726759544.016][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.03A4D6B77AD3119739B6DE3D16991B19.e.47"
+[1726760291.442][INFO]: Waiting for pending navigations...
+[1726760291.443][INFO]: Done waiting for pending navigations. Status: ok
+[1726760291.457][INFO]: Waiting for pending navigations...
+[1726760291.458][INFO]: Done waiting for pending navigations. Status: ok
+[1726760291.458][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.15550FDD13C76788A5D0FB72EF28707A.d.D9735F444D96F3F2401EBBECFEB76B99.e.45"
 }
-[1726759544.023][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND ClickElement {
-   "id": "f.A41CCEED382D3C93C4D1F0C4349AA3F2.d.03A4D6B77AD3119739B6DE3D16991B19.e.47"
+[1726760291.461][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND ClickElement {
+   "id": "f.15550FDD13C76788A5D0FB72EF28707A.d.D9735F444D96F3F2401EBBECFEB76B99.e.45"
 }
-[1726759544.023][INFO]: Waiting for pending navigations...
-[1726759544.024][INFO]: Done waiting for pending navigations. Status: ok
-[1726759544.124][INFO]: Waiting for pending navigations...
-[1726759544.131][INFO]: Done waiting for pending navigations. Status: ok
-[1726759544.131][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE ClickElement
-[1726759547.177][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759547.177][INFO]: Waiting for pending navigations...
-[1726759548.641][INFO]: Done waiting for pending navigations. Status: ok
-[1726759548.743][INFO]: Waiting for pending navigations...
-[1726759548.764][INFO]: Done waiting for pending navigations. Status: ok
-[1726759548.764][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759549.285][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759549.285][INFO]: Waiting for pending navigations...
-[1726759549.287][INFO]: Done waiting for pending navigations. Status: ok
-[1726759549.362][INFO]: Waiting for pending navigations...
-[1726759549.379][INFO]: Done waiting for pending navigations. Status: ok
-[1726759549.379][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759549.891][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759549.891][INFO]: Waiting for pending navigations...
-[1726759549.892][INFO]: Done waiting for pending navigations. Status: ok
-[1726759549.900][INFO]: Waiting for pending navigations...
-[1726759549.900][INFO]: Done waiting for pending navigations. Status: ok
-[1726759549.901][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759550.408][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759550.408][INFO]: Waiting for pending navigations...
-[1726759550.428][INFO]: Done waiting for pending navigations. Status: ok
-[1726759550.436][INFO]: Waiting for pending navigations...
-[1726759550.444][INFO]: Done waiting for pending navigations. Status: ok
-[1726759550.444][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759550.957][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759550.957][INFO]: Waiting for pending navigations...
-[1726759550.958][INFO]: Done waiting for pending navigations. Status: ok
-[1726759550.965][INFO]: Waiting for pending navigations...
-[1726759550.965][INFO]: Done waiting for pending navigations. Status: ok
-[1726759550.966][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759551.472][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759551.472][INFO]: Waiting for pending navigations...
-[1726759551.473][INFO]: Done waiting for pending navigations. Status: ok
-[1726759551.480][INFO]: Waiting for pending navigations...
-[1726759551.480][INFO]: Done waiting for pending navigations. Status: ok
-[1726759551.480][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759551.984][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759551.984][INFO]: Waiting for pending navigations...
-[1726759551.985][INFO]: Done waiting for pending navigations. Status: ok
-[1726759551.992][INFO]: Waiting for pending navigations...
-[1726759551.993][INFO]: Done waiting for pending navigations. Status: ok
-[1726759551.993][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759552.500][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759552.501][INFO]: Waiting for pending navigations...
-[1726759552.502][INFO]: Done waiting for pending navigations. Status: ok
-[1726759552.517][INFO]: Waiting for pending navigations...
-[1726759552.518][INFO]: Done waiting for pending navigations. Status: ok
-[1726759552.518][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759553.042][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759553.042][INFO]: Waiting for pending navigations...
-[1726759553.043][INFO]: Done waiting for pending navigations. Status: ok
-[1726759553.050][INFO]: Waiting for pending navigations...
-[1726759553.051][INFO]: Done waiting for pending navigations. Status: ok
-[1726759553.051][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759553.568][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759553.568][INFO]: Waiting for pending navigations...
-[1726759553.574][INFO]: Done waiting for pending navigations. Status: ok
-[1726759553.583][INFO]: Waiting for pending navigations...
-[1726759553.584][INFO]: Done waiting for pending navigations. Status: ok
-[1726759553.584][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759554.094][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759554.094][INFO]: Waiting for pending navigations...
-[1726759554.095][INFO]: Done waiting for pending navigations. Status: ok
-[1726759554.101][INFO]: Waiting for pending navigations...
-[1726759554.105][INFO]: Done waiting for pending navigations. Status: ok
-[1726759554.105][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759554.613][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759554.613][INFO]: Waiting for pending navigations...
-[1726759554.614][INFO]: Done waiting for pending navigations. Status: ok
-[1726759554.627][INFO]: Waiting for pending navigations...
-[1726759554.628][INFO]: Done waiting for pending navigations. Status: ok
-[1726759554.628][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759555.142][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759555.142][INFO]: Waiting for pending navigations...
-[1726759555.149][INFO]: Done waiting for pending navigations. Status: ok
-[1726759555.161][INFO]: Waiting for pending navigations...
-[1726759555.162][INFO]: Done waiting for pending navigations. Status: ok
-[1726759555.162][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759555.671][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759555.671][INFO]: Waiting for pending navigations...
-[1726759555.672][INFO]: Done waiting for pending navigations. Status: ok
-[1726759555.688][INFO]: Waiting for pending navigations...
-[1726759555.715][INFO]: Done waiting for pending navigations. Status: ok
-[1726759555.715][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759556.235][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759556.235][INFO]: Waiting for pending navigations...
-[1726759556.245][INFO]: Done waiting for pending navigations. Status: ok
-[1726759556.256][INFO]: Waiting for pending navigations...
-[1726759556.257][INFO]: Done waiting for pending navigations. Status: ok
-[1726759556.257][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759556.760][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759556.760][INFO]: Waiting for pending navigations...
-[1726759556.761][INFO]: Done waiting for pending navigations. Status: ok
-[1726759556.768][INFO]: Waiting for pending navigations...
-[1726759556.768][INFO]: Done waiting for pending navigations. Status: ok
-[1726759556.768][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759557.287][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#right-arrow-button > ytd-button-renderer > yt-button-shape > button"
-}
-[1726759557.287][INFO]: Waiting for pending navigations...
-[1726759557.288][INFO]: Done waiting for pending navigations. Status: ok
-[1726759557.294][INFO]: Waiting for pending navigations...
-[1726759557.295][INFO]: Done waiting for pending navigations. Status: ok
-[1726759557.295][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#right-arrow-button > ytd-button-renderer > yt-button-shape > button"}
-  (Session info: chrome=128.0.6613.138)
-[1726759557.302][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND Navigate {
+[1726760291.461][INFO]: Waiting for pending navigations...
+[1726760291.462][INFO]: Done waiting for pending navigations. Status: ok
+[1726760291.511][INFO]: Waiting for pending navigations...
+[1726760291.518][INFO]: Done waiting for pending navigations. Status: ok
+[1726760291.518][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE ClickElement
+[1726760294.527][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND Navigate {
    "url": "https://www.youtube.com/"
 }
-[1726759557.302][INFO]: Waiting for pending navigations...
-[1726759557.303][INFO]: Done waiting for pending navigations. Status: ok
-[1726759558.199][INFO]: Waiting for pending navigations...
-[1726759560.094][INFO]: Done waiting for pending navigations. Status: ok
-[1726759560.094][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE Navigate
-[1726759560.101][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND Navigate {
+[1726760294.527][INFO]: Waiting for pending navigations...
+[1726760294.937][INFO]: Done waiting for pending navigations. Status: ok
+[1726760295.427][INFO]: Waiting for pending navigations...
+[1726760296.421][INFO]: Done waiting for pending navigations. Status: ok
+[1726760296.421][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE Navigate
+[1726760296.430][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND Navigate {
    "url": "https://www.youtube.com/"
 }
-[1726759560.101][INFO]: Waiting for pending navigations...
-[1726759560.106][INFO]: Done waiting for pending navigations. Status: ok
-[1726759560.328][INFO]: Waiting for pending navigations...
-[1726759561.375][INFO]: Done waiting for pending navigations. Status: ok
-[1726759561.375][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE Navigate
-[1726759561.385][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] COMMAND CloseWindow {
+[1726760296.430][INFO]: Waiting for pending navigations...
+[1726760296.435][INFO]: Done waiting for pending navigations. Status: ok
+[1726760296.765][INFO]: Waiting for pending navigations...
+[1726760297.891][INFO]: Done waiting for pending navigations. Status: ok
+[1726760297.891][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE Navigate
+[1726760297.904][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] COMMAND CloseWindow {
 }
-[1726759561.590][INFO]: [fc1426bdff9f147bab46852bc4c1a3a3] RESPONSE CloseWindow [  ]
+[1726760298.083][INFO]: [32c9bb0b3f20584bb1fae5f514c2a37a] RESPONSE CloseWindow [  ]
